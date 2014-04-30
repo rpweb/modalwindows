@@ -1,0 +1,71 @@
+div.close {
+  float:right;
+  a {
+    content: "\f057";
+    &.active, &:hover {
+      color:@lightgrey;
+    }
+
+  }
+}
+
+nav {
+  background-color: @black;
+  padding: 10px;
+  li {
+    display: inline;
+    margin: 0 10px;
+    a {
+      color: @grey;
+      span {
+        margin: 0 0 0 5px;
+      }
+    }
+  }
+  li{
+    a.fa-youtube {
+      &.active, &:hover {
+        .textshadow(@coloryt);
+      }
+    }
+
+    a.fa-facebook {
+      &.active, &:hover {
+        .textshadow(@colorfb);
+      }
+    }
+
+    a.fa-twitter {
+      &.active, &:hover {
+        .textshadow(@colortw);
+      }
+    }
+
+    a.fa-googleplus {
+      &.active, &:hover {
+        .textshadow(@colorgp);
+      }
+    }
+
+    a.fa-instagram {
+      &.active, &:hover {
+        .textshadow(@colorig);
+      }
+    }
+
+    a.fa-vimeo {
+      &.active, &:hover {
+        .textshadow(@colorvi);
+      }
+    }
+
+    a {
+      &._active, &:hover{
+        color: @lightgrey;
+        span {
+          .textshadow(@lightgrey);
+        }
+      }
+    }
+  }
+}

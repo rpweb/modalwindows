@@ -1,0 +1,53 @@
+.cube {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  margin:50px;
+  bottom:0;
+  right:0;
+  .perspective();
+  .opacity();
+  visibility: hidden;
+  &.appear{
+    .animation (opacity-appear-animation, 1s);
+    visibility: visible;
+  }
+  &.disappear{
+    .animation (opacity-disappear-animation, 1s);
+  }
+
+  div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    .transform-style(preserve-3d);
+    .transition-transform();
+
+    figure {
+      display: block;
+      position: absolute;
+      width: 198px;
+      height: 198px;
+      border: 1px solid @black;
+      line-height: 198px;
+      font-size: 120px;
+      color: @lightgrey;
+      text-align: center;
+    }
+
+    .front  { background: rgba(255, 0, 0, 0.70); .transform(translateZ(100px)); }
+    .back   { background: rgba(0, 0, 255, 0.70); .transform(rotateX(-180deg) translateZ(100px)); }
+    .right  { background: rgba(0, 255, 255, 0.70); .transform(rotateY(90deg) translateZ(100px)); }
+    .left   { background: rgba(255, 95, 66, 0.70); .transform(rotateY(-90deg) translateZ(100px)); }
+    .top    { background: rgba(162, 42, 42, 0.70); .transform(rotateX(90deg) translateZ(100px)); }
+    .bottom { background: rgba(62, 224, 207, 0.70); .transform(rotateX(-90deg) translateZ(100px)); }
+
+    &.panels-backface-invisible figure {.backface-visibility(hidden);}
+    &.youtube {.transform(translateZ(-100px));}
+    &.facebook {.transform(translateZ(-100px) rotateX(-180deg));}
+    &.twitter {.transform(translateZ(-100px) rotateY(-90deg));}
+    &.googleplus {.transform(translateZ(-100px) rotateY(90deg));}
+    &.instagram {.transform(translateZ(-100px) rotateX(-90deg));}
+    &.vimeo {.transform(translateZ(-100px) rotateX(90deg));}
+  }
+}

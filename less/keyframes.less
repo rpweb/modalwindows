@@ -1,0 +1,107 @@
+//youtube keyframes
+& {
+  .keyframes(youtubeanimation);.-frames(@-...){
+    from {
+      .transform-style(preserve-3d);
+      .transform(translateY(100%) rotateX(90deg));
+      .transform-origin(0, 100%);
+      .opacity(0);
+      .transition(all 0.3s ease-out);
+    }
+    to {
+      .transform(translateY(0%) rotateX(0deg));
+      .opacity(1);
+    }
+  }
+}
+
+//facebook keyframes
+& {
+  .keyframes(facebookanimation);.-frames(@-...){
+    from {
+      .transform(translateX(20%));
+      .opacity(0);
+      .transition(all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9));
+    }
+    to {
+      .transform(translateX(0));
+      .opacity(1);
+    }
+  }
+}
+
+//twitter keyframes
+& {
+  .keyframes(twitteranimation);.-frames(@-...){
+    from {
+      .transform-style(preserve-3d);
+      .transform(rotateX(-70deg));
+      .opacity(0);
+      .transition(all 0.3s);
+    }
+    to {
+      .transform(rotateX(0deg));
+      .opacity(1);
+    }
+  }
+}
+
+//googleplus keyframes
+& {
+  .keyframes(googleplusanimation);.-frames(@-...){
+    from {
+      .transform(scale(2));
+      .opacity(0);
+      .transition(all 0.3s);
+    }
+    to {
+      .transform(scale(1));
+      .opacity(1);
+    }
+  }
+}
+
+//instagram keyframes
+& {
+  .keyframes(instagramanimation);.-frames(@-...){
+    from {
+      .transform-style(preserve-3d);
+      .transform(translate(30%) translateZ(600px) rotate(10deg));
+      .opacity(0);
+    }
+    to {
+      .transform(translate(0%) translateZ(0) rotate(0deg));
+      .opacity(1);
+    }
+  }
+}
+
+//vimeo keyframes
+& {
+  .keyframes(vimeoanimation);.-frames(@-...){
+    from {
+      .transform(scale(0) rotate(720deg));
+      .transition(all 0.5s);
+      .opacity(0);
+    }
+    to {
+      .transform(scale(1) rotate(0deg));
+      .opacity(1);
+    }
+  }
+}
+
+//appear opacity
+& {
+  .keyframes(opacity-appear-animation);.-frames(@-...){
+    from {.opacity(0);}
+    to {.opacity();}
+  }
+}
+//disappear opacity
+& {
+  .keyframes(opacity-disappear-animation);.-frames(@-...){
+    from {.opacity();visibility: visible;}
+    to {.opacity(0);}
+  }
+}

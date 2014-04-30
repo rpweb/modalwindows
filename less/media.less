@@ -1,0 +1,32 @@
+@media all and (max-width: 720px) {
+  body {
+    background: @bggreen;
+  }
+  nav {
+    font-size: 1.55em;
+    width: 1.6em;
+    padding: 10px 5px 5px;
+    li {
+      display: block;
+      margin: 15px 10px;
+      a {
+        span {
+          display: none;
+        }
+      }
+    }
+    li:first-child{;
+      margin: 0 10px 30px 10px;
+    }
+  }
+  .window {
+    top: 40%;
+  }
+}
+
+@media all and (max-width: 32em) {
+  .window {
+    width: 50%;
+    font-size: 75%;
+  }
+}
