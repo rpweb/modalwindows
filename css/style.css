@@ -780,27 +780,27 @@ nav li a span {
 }
 nav li a.fa-youtube.active,
 nav li a.fa-youtube:hover {
-  text-shadow: 0 0 30px #ff0000;
+  text-shadow: 0 0 10px #ff0000;
 }
 nav li a.fa-facebook.active,
 nav li a.fa-facebook:hover {
-  text-shadow: 0 0 30px #0000ff;
+  text-shadow: 0 0 10px #0000ff;
 }
 nav li a.fa-twitter.active,
 nav li a.fa-twitter:hover {
-  text-shadow: 0 0 30px #00ffff;
+  text-shadow: 0 0 10px #00ffff;
 }
 nav li a.fa-googleplus.active,
 nav li a.fa-googleplus:hover {
-  text-shadow: 0 0 30px #ff6347;
+  text-shadow: 0 0 10px #ff6347;
 }
 nav li a.fa-instagram.active,
 nav li a.fa-instagram:hover {
-  text-shadow: 0 0 30px #a52a2a;
+  text-shadow: 0 0 10px #a52a2a;
 }
 nav li a.fa-vimeo.active,
 nav li a.fa-vimeo:hover {
-  text-shadow: 0 0 30px #40e0d0;
+  text-shadow: 0 0 10px #40e0d0;
 }
 nav li a._active,
 nav li a:hover {
@@ -808,7 +808,7 @@ nav li a:hover {
 }
 nav li a._active span,
 nav li a:hover span {
-  text-shadow: 0 0 30px #e5e5e5;
+  text-shadow: 0 0 10px #e5e5e5;
 }
 /*modal windows*/
 .window {
