@@ -778,6 +778,9 @@ nav li a {
 nav li a span {
   margin: 0 0 0 5px;
 }
+nav li span {
+  font-family: verdana, sans-serif;
+}
 nav li a.fa-youtube.active,
 nav li a.fa-youtube:hover {
   text-shadow: 0 0 10px #ff0000;
@@ -841,10 +844,12 @@ nav li a:hover span {
   color: #999999;
 }
 .window .content h3 {
+  font-family: verdana, sans-serif;
   color: #999999;
   margin: 0 0 10px 0;
 }
 .window .content p {
+  font-family: verdana, sans-serif;
   background: #d1d1d1;
   padding: 5px;
 }
