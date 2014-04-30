@@ -91,12 +91,12 @@
   background-image: -ms-linear-gradient(left, @startColor, @endColor);
   background-image: -o-linear-gradient(left, @startColor, @endColor);
 }
-.animation (@name, @duration: 300ms, @delay: 0, @ease: ease) {
-  -webkit-animation: @name @duration;
-  -moz-animation:    @name @duration;
-  -ms-animation:     @name @duration;
-  -o-animation:     @name @duration;
-  animation:     @name @duration;
+.animation (@string, @duration: 300ms) {
+  -webkit-animation: @string @duration;
+  -moz-animation:    @string @duration;
+  -ms-animation:     @string @duration;
+  -o-animation:     @string @duration;
+  animation:     @string @duration;
 }
 .transition (@string) {
   -webkit-transition: @string;
