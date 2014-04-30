@@ -854,46 +854,46 @@ nav li a:hover span {
   padding: 5px;
 }
 .window .content.show-youtube {
-  -webkit-animation: youtubeanimation 300ms 0 ease;
-  -moz-animation: youtubeanimation 300ms 0 ease;
-  -ms-animation: youtubeanimation 300ms 0 ease;
-  -o-animation: youtubeanimation 300ms 0 ease;
-  animation: youtubeanimation 300ms 0 ease;
+  -webkit-animation: youtubeanimation 300ms;
+  -moz-animation: youtubeanimation 300ms;
+  -ms-animation: youtubeanimation 300ms;
+  -o-animation: youtubeanimation 300ms;
+  animation: youtubeanimation 300ms;
 }
 .window .content.show-facebook {
-  -webkit-animation: facebookanimation 300ms 0 ease;
-  -moz-animation: facebookanimation 300ms 0 ease;
-  -ms-animation: facebookanimation 300ms 0 ease;
-  -o-animation: facebookanimation 300ms 0 ease;
-  animation: facebookanimation 300ms 0 ease;
+  -webkit-animation: facebookanimation 300ms;
+  -moz-animation: facebookanimation 300ms;
+  -ms-animation: facebookanimation 300ms;
+  -o-animation: facebookanimation 300ms;
+  animation: facebookanimation 300ms;
 }
 .window .content.show-twitter {
-  -webkit-animation: twitteranimation 300ms 0 ease;
-  -moz-animation: twitteranimation 300ms 0 ease;
-  -ms-animation: twitteranimation 300ms 0 ease;
-  -o-animation: twitteranimation 300ms 0 ease;
-  animation: twitteranimation 300ms 0 ease;
+  -webkit-animation: twitteranimation 300ms;
+  -moz-animation: twitteranimation 300ms;
+  -ms-animation: twitteranimation 300ms;
+  -o-animation: twitteranimation 300ms;
+  animation: twitteranimation 300ms;
 }
 .window .content.show-googleplus {
-  -webkit-animation: googleplusanimation 300ms 0 ease;
-  -moz-animation: googleplusanimation 300ms 0 ease;
-  -ms-animation: googleplusanimation 300ms 0 ease;
-  -o-animation: googleplusanimation 300ms 0 ease;
-  animation: googleplusanimation 300ms 0 ease;
+  -webkit-animation: googleplusanimation 300ms;
+  -moz-animation: googleplusanimation 300ms;
+  -ms-animation: googleplusanimation 300ms;
+  -o-animation: googleplusanimation 300ms;
+  animation: googleplusanimation 300ms;
 }
 .window .content.show-instagram {
-  -webkit-animation: instagramanimation 300ms 0 ease;
-  -moz-animation: instagramanimation 300ms 0 ease;
-  -ms-animation: instagramanimation 300ms 0 ease;
-  -o-animation: instagramanimation 300ms 0 ease;
-  animation: instagramanimation 300ms 0 ease;
+  -webkit-animation: instagramanimation 300ms;
+  -moz-animation: instagramanimation 300ms;
+  -ms-animation: instagramanimation 300ms;
+  -o-animation: instagramanimation 300ms;
+  animation: instagramanimation 300ms;
 }
 .window .content.show-vimeo {
-  -webkit-animation: vimeoanimation 300ms 0 ease;
-  -moz-animation: vimeoanimation 300ms 0 ease;
-  -ms-animation: vimeoanimation 300ms 0 ease;
-  -o-animation: vimeoanimation 300ms 0 ease;
-  animation: vimeoanimation 300ms 0 ease;
+  -webkit-animation: vimeoanimation 300ms;
+  -moz-animation: vimeoanimation 300ms;
+  -ms-animation: vimeoanimation 300ms;
+  -o-animation: vimeoanimation 300ms;
+  animation: vimeoanimation 300ms;
 }
 .window.appear {
   visibility: visible;
@@ -914,11 +914,11 @@ nav li a:hover span {
   visibility: hidden;
 }
 .bgshadow.appear {
-  -webkit-animation: opacity-appear-animation 300ms 0 ease;
-  -moz-animation: opacity-appear-animation 300ms 0 ease;
-  -ms-animation: opacity-appear-animation 300ms 0 ease;
-  -o-animation: opacity-appear-animation 300ms 0 ease;
-  animation: opacity-appear-animation 300ms 0 ease;
+  -webkit-animation: opacity-appear-animation 300ms;
+  -moz-animation: opacity-appear-animation 300ms;
+  -ms-animation: opacity-appear-animation 300ms;
+  -o-animation: opacity-appear-animation 300ms;
+  animation: opacity-appear-animation 300ms;
   visibility: visible;
 }
 /*3d effect*/
@@ -942,19 +942,19 @@ nav li a:hover span {
   visibility: hidden;
 }
 .cube.appear {
-  -webkit-animation: opacity-appear-animation 1s 0 ease;
-  -moz-animation: opacity-appear-animation 1s 0 ease;
-  -ms-animation: opacity-appear-animation 1s 0 ease;
-  -o-animation: opacity-appear-animation 1s 0 ease;
-  animation: opacity-appear-animation 1s 0 ease;
+  -webkit-animation: opacity-appear-animation 1s;
+  -moz-animation: opacity-appear-animation 1s;
+  -ms-animation: opacity-appear-animation 1s;
+  -o-animation: opacity-appear-animation 1s;
+  animation: opacity-appear-animation 1s;
   visibility: visible;
 }
 .cube.disappear {
-  -webkit-animation: opacity-disappear-animation 1s 0 ease;
-  -moz-animation: opacity-disappear-animation 1s 0 ease;
-  -ms-animation: opacity-disappear-animation 1s 0 ease;
-  -o-animation: opacity-disappear-animation 1s 0 ease;
-  animation: opacity-disappear-animation 1s 0 ease;
+  -webkit-animation: opacity-disappear-animation 1s;
+  -moz-animation: opacity-disappear-animation 1s;
+  -ms-animation: opacity-disappear-animation 1s;
+  -o-animation: opacity-disappear-animation 1s;
+  animation: opacity-disappear-animation 1s;
 }
 .cube div {
   width: 100%;
